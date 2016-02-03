@@ -13,6 +13,8 @@ let g:syntastic_quiet_messages = {
 \   'file': []
 \}
 
+let g:syntastic_javascript_checkers = [ 'eslint' ]
+
 let g:syntastic_php_phpcs_quiet_messages =  {
 \   'regex': [
 \       'Line indented incorrectly;',
